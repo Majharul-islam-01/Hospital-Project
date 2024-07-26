@@ -1,0 +1,461 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* body{
+    background-image: url("photo/3.jpg");
+    background-size: cover;
+} */
+.top{
+    height: 35px;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media{
+    color: white;
+    font-size: 0.80rem;
+    height: 35px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.95rem;
+    margin-left: 10px;
+}
+.top-se{
+    height: 35px;
+    width: 70px;
+    color: white;
+    background-color: green;
+    border: none;
+    margin-left: 10px;
+    display: flex;
+}
+.policy{
+    color: white;
+    height: 35px;
+    font-size: 0.80rem;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height:35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 15px;
+    background-image: url("photo/islami.png");
+    background-size: cover;
+}
+.policy p{
+    margin-right: 20px;
+}
+.policy p{
+    margin-right: 20px;
+}
+.hover1:hover{
+    cursor: pointer;
+    color: rgb(6, 56, 6);
+}
+/** header **/
+.header{
+    height: 100px;
+    /* margin-top: 20px; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo1{
+    height:80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 15px;
+    background-image: url("photo/islami.png");
+    background-size: cover;
+}
+.menu-bar{
+    height:50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(7, 61, 7);
+    color: white;
+    border-radius: 7px;
+}
+.menu-bar i{
+    padding-right: 10px;
+}
+.menu-bar select{
+    border: none;
+    appearance: none;
+}
+.search{
+    height: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-input{
+    height: 37px;
+    width: 200px;
+    border: 1px solid black;
+    border-right: none;
+}
+.search-ico{
+    border: 1px solid black;
+    border-left: none;
+    height: 37px;
+    width: 50px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hover2:hover{
+    cursor: pointer;
+    background-color: green;
+}
+.eme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eme-log{
+    height:80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 15px;
+    background-image: url("photo/1.jpg");
+    background-size: cover;
+}
+.eme3{
+    height: 45px;
+    width: 130px;
+    display: flex;
+    color: white;
+    background-color:rgb(7, 61, 7);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+}
+.eme3 a{
+    text-decoration: none;
+}
+.eme4{
+    height: 45px;
+    width: 130px;
+    display: flex;
+    color: white;
+    background-color:rgb(7, 61, 7) ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+}
+.eme4 a{
+    text-decoration: none;
+}
+.eme1{
+    height: 45px;
+    width: 130px;
+    display: flex;
+    color: white;
+    background-color: red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.eme2{
+    height: 45px;
+    width: 130px;
+    display: flex;
+    color: white;
+    background-color:rgb(7, 61, 7);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+.header1{
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header1-se{
+    height: 30px;
+    border: none;
+    font-size: 0.80rem;
+}
+.hospital-name{
+    height: 110px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 140px;
+}
+.hospital-name p{
+    color: white;
+    font-size: 2.5rem;
+}
+.logo1{
+    height:80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 80px;
+    background-image: url("photo/islami.png");
+    background-size: cover;
+}
+/** body**/
+.main{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-1{
+    height: 360px;
+    width: 300px;
+}
+.main-2{
+    height: 360px;
+    width: 600px;
+}
+.main-2-img{
+    background-image: url("photo/2.jpg");
+    background-size: cover;
+    height: 360px;
+    width: 600px;
+    border-radius: 10px;
+}
+.main-text{
+    height: 40px;
+    width: 280px;
+    color: rgb(56, 49, 49);
+    background-color: rgb(201, 201, 176);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+}
+.main-text p{
+ margin-left: 15px;
+}
+.main-text i{
+    margin-right: 15px;
+}
+.main-text:hover{
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    transition: all 0.7s ease 0s;
+}
+.main-text:active{
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+.service{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service-1{
+    height: 100px;
+    width: 25%;
+    background-color: #DF3030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-2{
+    height: 100px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03A45E;
+}
+/* .service-2 a{
+    text-decoration: none;
+} */
+.service-3{
+    height: 100px;
+    width: 25%;
+    background-color: #00864B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-4{
+    height: 100px;
+    width: 25%;
+    background-color: #4D9D31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-icon{
+    color: white;
+    margin-right: 10px;
+    font-size: 2rem;
+}
+.service-text{
+    color: white;
+    font-size: 1.5rem;
+}
+.service-text:hover{
+    cursor: pointer;
+    color: black;
+    transition: all 0.7s ease 0s;
+}
+.hospital-information{
+    height: 250px;
+    background-color: #191515D6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.information{
+    height: 230px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.infomation-icon{
+    color: white;
+    font-size: 2rem;
+}
+.information-text1{
+    color: white;
+    font-size: 5rem;
+}
+.information-text2{
+    color: white;
+    font-size: 1.5rem;
+}
+footer{
+    height: 600px;
+    /* border: 1px solid black; */
+    background-color: #03A45E;
+    color: white;
+}
+.footer-1{
+    height: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-text1{
+    height: 300px;
+    width: 200px;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    padding: 10px;
+    padding: 5px;
+}
+.footer-text1 p:hover{
+    cursor: pointer;
+    color: #07301e;
+}
+.footer-2{
+    height: 180px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    
+}
+.last{
+    height: 140px;
+    width: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.footer-social i{
+    margin-right: 10px;
+    font-size: 2rem;
+}
+.footer-policy p{
+    font-size: 3rem;
+}
+.copy{
+    height: 70px;
+    /* color: black; */
+    background-color:rgb(7, 61, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.fixed{
+    height: 300px;
+    background-color: #4D9D31;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fixed-div{
+    height: 50px;
+    width: 290px;
+    border-radius: 30px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fixed-div a{
+    text-decoration: none;
+    color: black;
+  }
+.fixed-div p{
+    font-size: 1.5rem;
+}
+.fixed-div:hover{
+    cursor: pointer;
+    background-color: red;
+    transition: all 0.85s ease-in-out 0s;
+}
+.fixed-1{
+    background-color: white;
+}
+.fixed-2{
+    background-color: #4949BE;
+    color: white;
+}
+.fixed-3{
+    background-color: yellow;
+    color: black;
+}

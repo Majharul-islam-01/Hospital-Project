@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.hospital-name{
+    height: 110px;
+    width: 100%;
+    /* background-color: #191515D6; */
+    background-color: green;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+.name{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 140px;
+}
+.hospital-name p{
+    color: white;
+    font-size: 2.5rem;
+}
+.logo{
+    height:70%;
+    width: 6%;
+    border-radius: 50%;
+}
+.logo1{
+    height:100%;
+    width: 100%;
+    border-radius: 50%;
+    margin-left: 80px;
+    background-image: url("photo/islami.png");
+    background-size: cover;
+}

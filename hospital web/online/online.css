@@ -1,0 +1,181 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.hospital-name{
+    height: 110px;
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hospital-name1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hospital-name p{
+    color: white;
+    font-size: 2.5rem;
+}
+.logo1{
+    height:80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 15px;
+    background-image: url("photo/islami.png");
+    background-size: cover;
+}
+.main{
+    height: 83vh;
+    background-image: url("photo/3.jpg");
+    background-size: cover;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.online{
+    height: 70%;
+    width: 35%;
+    /* background-color: #191515D6; */
+    background-color: #f8f8f88c;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    height: 10%;
+    padding-top: 20px;
+    width: 400px;
+}
+.select1{
+    text-align: center;
+}
+.box{
+    height: 100%;
+    width: 400px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+.save{
+    padding-top: 50px;
+    height: 10%;
+}
+button{
+    height:100%;
+    width: 130px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+button:active{
+    cursor: pointer;
+    color: white;
+    background-color: gray;
+}
+/**Footer**/
+footer{
+    height: 600px;
+    /* border: 1px solid black; */
+    background-color: #03A45E;
+    color: white;
+}
+.footer-1{
+    height: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-text1{
+    height: 300px;
+    width: 200px;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    padding: 10px;
+    padding: 5px;
+}
+.footer-text1 p:hover{
+    cursor: pointer;
+    color: #07301e;
+}
+.footer-2{
+    height: 180px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    
+}
+.last{
+    height: 140px;
+    width: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.footer-social i{
+    margin-right: 10px;
+    font-size: 2rem;
+}
+.footer-policy p{
+    font-size: 3rem;
+}
+.copy{
+    height: 70px;
+    /* color: black; */
+    background-color:rgb(7, 61, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.fixed{
+    height: 300px;
+    background-color: #4D9D31;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fixed-div{
+    height: 50px;
+    width: 290px;
+    border-radius: 30px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fixed-div p{
+    font-size: 1.5rem;
+}
+.fixed-div:hover{
+    cursor: pointer;
+    background-color: red;
+    transition: all 0.85s ease-in-out 0s;
+}
+.fixed-1{
+    background-color: white;
+}
+.fixed-2{
+    background-color: #4949BE;
+    color: white;
+}
+.fixed-3{
+    background-color: yellow;
+    color: black;
+}
